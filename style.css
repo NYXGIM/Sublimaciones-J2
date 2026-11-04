@@ -11,12 +11,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #f5f5f5;
+    background: linear-gradient(to bottom,
+            rgb(14 0 255 / 38%) 30%,
+            rgb(36 128 0 / 0%) 76%);
     overflow: hidden;
 }
 
 .about-title {
-    font-size: 7.5rem;
+    font-size: 7.3rem;
     font-weight: 900;
     text-transform: uppercase;
     letter-spacing: -0.02em;
@@ -28,8 +30,8 @@ body {
     white-space: nowrap;
     font-family: "Arial Black", "Arial Bold", Arial, sans-serif;
     background: linear-gradient(to bottom,
-            rgb(90 60 170 / 38%) 30%,
-            rgb(255 255 255 / 0%) 76%);
+            rgb(255 43 234 / 38%) 30%,
+            rgb(243 148 255 / 0%) 76%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -41,7 +43,7 @@ body {
     height: 450px;
     position: relative;
     perspective: 1000px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .carousel-track {
@@ -130,7 +132,7 @@ body {
 
 .member-info {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 20px;
     transition: all 0.5s ease-out;
 }
 
