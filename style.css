@@ -11,9 +11,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom,
-            rgb(14 0 255 / 38%) 30%,
-            rgb(36 128 0 / 0%) 76%);
+    background: circle-gradient(to bottom,
+            rgb(14 0 255 / 45%) 30%,
+            rgb(36 128 0 / 4%) 76%);
     overflow: hidden;
 }
 
@@ -59,8 +59,8 @@ body {
 
 .card {
     position: absolute;
-    width: 280px;
-    height: 380px;
+    width: 270px;
+    height: 370px;
     background: white;
     border-radius: 20px;
     overflow: hidden;
@@ -132,7 +132,7 @@ body {
 
 .member-info {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
     transition: all 0.5s ease-out;
 }
 
